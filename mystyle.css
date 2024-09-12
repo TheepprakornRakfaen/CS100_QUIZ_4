@@ -1,0 +1,62 @@
+/* Myfont */
+@font-face {
+    font-family: 'Terminal Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/CS100_QUIZ_4/resources/MyFont/Terminal.woff) format('woff');
+    }
+
+@font-face {
+    font-family: 'ZFTERMIN';
+    src: url(/CS100_QUIZ_4/resources/MyFont/Kanit-Light.ttf)
+}
+
+
+
+.BackGround{
+    background: url(/CS100_QUIZ_4/resources/Picture/พื้นหลัง/The\ General\ Public\,\ Empty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.Tab{
+    padding: 15px;
+}
+
+.Header{
+    font-family:Terminal Medium;
+}
+
+.keyword{
+    font-weight: bold;  
+    font-style: italic; 
+}
+
+.tablepic{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 30px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+.container-sm{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.class{
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+}
